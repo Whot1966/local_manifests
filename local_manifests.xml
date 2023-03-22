@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="Whot1966"
+           fetch="https://github.com/Whot1966" />
+
+  <remote  name="Whot1966-lab"
+           fetch="https://gitlab.com/Whot1966" />
+
+ <!-- Remove -->
+  <remove-project name="frameworks_base"/>
+  <remove-project name="packages_apps_Settings"/>
+  <remove-project name="vendor_bootleggers"/>
+
+ <!-- Replacements -->
+  <project path="frameworks/base" name="bootleg_frameworks_base" remote="Whot1966" revision="tirimbino"/>
+  <project path="packages/apps/Settings" name="bootleg_packages_apps_Settings" remote="Whot1966" revision="tirimbino"/>
+  <project path="vendor/bootleggers" name="bootleg_vendor_bootleggers" remote="Whot1966" revision="tirimbino"/>
+
+ <!-- Extras -->
+  <project path="vendor/whot1966" name="vendor_whot1966" remote="Whot1966-lab" revision="main"/>
+
+ <!-- X00TD -->
+  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Whot1966" revision="r7/eas" clone-depth="1"/>
+  <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Whot1966" revision="iusmac-parts"/>
+  <project path="vendor/asus/X00TD" name="vendor_asus_X00TD" remote="Whot1966" revision="lineage-20"/>
+</manifest>
