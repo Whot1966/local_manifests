@@ -17,7 +17,7 @@
   <project path="vendor/bootleggers" name="bootleg_vendor_bootleggers" remote="Whot1966" revision="tirimbino"/>
 
  <!-- Extras -->
-  <project path="vendor/whot1966" name="vendor_whot1966" remote="Whot1966-lab" revision="main"/>
+  <project path="vendor/Whot1966" name="vendor_whot1966" remote="Whot1966-lab" revision="main"/>
 
  <!-- X00TD -->
   <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Whot1966" revision="r7/eas" clone-depth="1"/>
