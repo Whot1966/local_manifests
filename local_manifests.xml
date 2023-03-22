@@ -7,7 +7,7 @@
            fetch="https://gitlab.com/Whot1966" />
   
   <remote  name="arrow"
-           fetch="https://gitlab.com/ArrowOS" />
+           fetch="https://github.com/ArrowOS" />
   
  <!-- Remove -->
   <remove-project name="frameworks_base"/>
