@@ -14,12 +14,14 @@
   <remove-project name="packages_apps_Settings"/>
   <remove-project name="vendor_bootleggers"/>
   <remove-project name="android_packages_modules_Bluetooth"/>
+  <remove-project name="packages_apps_Launcher3"/>
 
  <!-- Replacements -->
   <project path="frameworks/base" name="bootleg_frameworks_base" remote="Whot1966" revision="tirimbino"/>
   <project path="packages/apps/Settings" name="bootleg_packages_apps_Settings" remote="Whot1966" revision="tirimbino"/>
   <project path="vendor/bootleggers" name="bootleg_vendor_bootleggers" remote="Whot1966" revision="tirimbino"/>
   <project path="packages/modules/Bluetooth" name="lineage_android_packages_modules_Bluetooth" remote="Whot1966" revision="lineage-20.0"/>
+  <project path="packages/apps/Launcher3" name="bootleg_packages_apps_Launcher3" remote="Whot1966" revision="tirimbino"/>
 
  <!-- Extras -->
   <project path="vendor/Whot1966" name="vendor_whot1966" remote="Whot1966-lab" revision="main"/>
