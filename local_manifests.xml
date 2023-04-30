@@ -30,5 +30,5 @@
  <!-- X00TD -->
   <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Whot1966" revision="eas-test" clone-depth="1"/>
   <project path="device/asus/X00TD" name="android_device_asus_sdm636" remote="Whot1966" revision="lineage-20"/>
-  <project path="vendor/asus/X00TD" name="vendor_asus_X00TD" remote="Whot1966" revision="lineage-20" clone-depth="1"/>
+  <project path="vendor/asus/X00TD" name="proprietary_vendor_asus_sdm636" remote="Whot1966" revision="lineage-20" clone-depth="1"/>
 </manifest>
