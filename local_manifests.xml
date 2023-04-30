@@ -20,7 +20,7 @@
   <project path="frameworks/base" name="bootleg_frameworks_base" remote="Whot1966" revision="tirimbino"/>
   <project path="packages/apps/Settings" name="bootleg_packages_apps_Settings" remote="Whot1966" revision="tirimbino"/>
   <project path="vendor/bootleggers" name="bootleg_vendor_bootleggers" remote="Whot1966" revision="tirimbino"/>
-  <project path="system/extras" name="arrow_android_system_extras" remote="Whot1966" revision="arrow-13.0"/>
+  <project path="system/extras" name="arrow_android_system_extras" remote="Whot1966" revision="arrow-13.1"/>
   <project path="packages/apps/Launcher3" name="bootleg_packages_apps_Launcher3" remote="Whot1966" revision="tirimbino"/>
 
  <!-- Extras -->
