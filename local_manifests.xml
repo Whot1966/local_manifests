@@ -17,18 +17,18 @@
   <remove-project name="packages_apps_Launcher3"/>
 
  <!-- Replacements -->
-  <project path="frameworks/base" name="bootleg_frameworks_base" remote="Whot1966" revision="tirimbino"/>
-  <project path="packages/apps/Settings" name="bootleg_packages_apps_Settings" remote="Whot1966" revision="tirimbino"/>
-  <project path="vendor/bootleggers" name="bootleg_vendor_bootleggers" remote="Whot1966" revision="tirimbino"/>
-  <project path="system/extras" name="arrow_android_system_extras" remote="Whot1966" revision="arrow-13.1"/>
-  <project path="packages/apps/Launcher3" name="bootleg_packages_apps_Launcher3" remote="Whot1966" revision="tirimbino"/>
+  <project path="frameworks/base" name="frameworks_base-bootleg" remote="Whot1966" revision="tirimbino"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings-bootleg" remote="Whot1966" revision="tirimbino"/>
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="Whot1966" revision="tirimbino"/>
+  <project path="system/extras" name="android_system_extras-arrow" remote="Whot1966" revision="arrow-13.1"/>
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3-bootleg" remote="Whot1966" revision="tirimbino"/>
 
  <!-- Extras -->
   <project path="vendor/Whot1966" name="vendor_whot1966" remote="Whot1966-lab" revision="main"/>
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Whot1966-lineage" revision="lineage-20.0"/>
 
  <!-- X00TD -->
-  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Whot1966" revision="eas-test" clone-depth="1"/>
-  <project path="device/asus/X00TD" name="android_device_asus_sdm636" remote="Whot1966" revision="lineage-20"/>
-  <project path="vendor/asus/X00TD" name="proprietary_vendor_asus_sdm636" remote="Whot1966" revision="lineage-20" clone-depth="1"/>
+  <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Whot1966" revision="eas-test" clone-depth="1"/>
+  <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Whot1966" revision="lineage-20"/>
+  <project path="vendor/asus/X00TD" name="vendor_asus_X00TD" remote="Whot1966" revision="lineage-20" clone-depth="1"/>
 </manifest>
