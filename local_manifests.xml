@@ -6,6 +6,9 @@
   <remote  name="Whot1966-lab"
            fetch="https://gitlab.com/Whot1966" />
   
+  <remote  name="Whot1966-crdroid"
+           fetch="https://github.com/crdroidandroid" />
+  
  <!-- Remove -->
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
@@ -30,6 +33,7 @@
 
 <!-- Extras -->
   <project path="vendor/Whot1966" name="vendor_whot1966" remote="Whot1966-lab" revision="main"/>
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="Whot1966-crdroid" revision="13.0"/>
 
 <!-- X00TD -->
   <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-4.19" remote="Whot1966" revision="r2/s" clone-depth="1"/>
