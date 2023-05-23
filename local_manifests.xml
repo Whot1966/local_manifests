@@ -17,6 +17,7 @@
   <remove-project name="LineageOS/android_hardware_interfaces" />
   <remove-project name="LineageOS/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_system_extras" />
@@ -40,6 +41,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="Whot1966" revision="lineage-20.0" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="Whot1966" revision="lineage-20.0" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="Whot1966" revision="lineage-20.0" />
   <project path="system/extras" name="android_system_extras-lineage" remote="Whot1966" revision="lineage-20.0" />
