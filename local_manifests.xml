@@ -46,6 +46,7 @@
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="Whot1966-arrow" revision="arrow-13.1-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="Whot1966-arrow" revision="arrow-13.1-caf-sm8150" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="Whot1966-arrow" revision="arrow-13.1" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="Whot1966-arrow" revision="arrow-13.1" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="Whot1966-arrow" revision="arrow-13.1" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="Whot1966-arrow" revision="arrow-13.1-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="Whot1966-arrow" revision="arrow-13.1-sn100x" />
