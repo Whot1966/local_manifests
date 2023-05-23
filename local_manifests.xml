@@ -12,6 +12,7 @@
  <!-- Remove -->
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_hardware_interfaces" />
   <remove-project name="LineageOS/android_lineage-sdk" />
@@ -34,6 +35,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="bionic" name="android_bionic-lineage" remote="Whot1966" revision="lineage-20.0" />
+  <project path="frameworks/av" name="android_frameworks_av-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="frameworks/base" name="android_frameworks_base-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="hardware/interfaces" name="android_hardware_interfaces-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="Whot1966" revision="lineage-20.0" />
