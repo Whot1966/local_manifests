@@ -9,10 +9,12 @@
  <!-- Remove -->
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_hardware_interfaces" />
   <remove-project name="LineageOS/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_vendor_lineage" />
@@ -30,10 +32,12 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="bionic" name="android_bionic-lineage" remote="Whot1966" revision="lineage-20.0" />
+  <project path="frameworks/av" name="android_frameworks_av-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="frameworks/base" name="android_frameworks_base-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="hardware/interfaces" name="android_hardware_interfaces-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="Whot1966" revision="lineage-20.0" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="Whot1966" revision="lineage-20.0" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings-lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="Whot1966" revision="lineage-20.0" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="Whot1966" revision="lineage-20.0" />
