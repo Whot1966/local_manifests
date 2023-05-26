@@ -50,8 +50,8 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="Whot1966" revision="13"/>
 
 <!-- X00TD -->
-  <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-4.19" remote="Whot1966" revision="test" clone-depth="1"/>
-  <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Whot1966" revision="lineage-20.0"/>
+  <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-4.19" remote="Whot1966" revision="erofs" clone-depth="1"/>
+  <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Whot1966" revision="erofs"/>
   <project path="vendor/asus/X00TD" name="vendor_asus_X00TD-4.19" remote="Whot1966" revision="lineage-20.0" clone-depth="1"/>
 
 </manifest>
