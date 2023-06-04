@@ -21,9 +21,6 @@
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
 
 <!-- Replacements -->
   <project path="build/make" name="android_build-lineage" groups="pdk" remote="Whot1966" revision="lineage-20.0" >
@@ -47,18 +44,10 @@
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="Whot1966" revision="lineage-20.0" />
   <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="Whot1966" revision="lineage-20.0" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom-caf_msm8998_audio-4.19" remote="Whot1966" revision="lineage-20.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom-caf_msm8998_display-4.19" remote="Whot1966" revision="lineage-20.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom-caf_msm8998_media-4.19" remote="Whot1966" revision="lineage-20.0-caf-msm8998" />
 
 <!-- Extras -->
   <project path="vendor/Whot1966" name="vendor_whot1966" remote="Whot1966-lab" revision="main"/>
   <project path="vendor/Whot1966/fonts" name="vendor_whot1966_fonts" remote="Whot1966-lab" revision="main"/>
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="Whot1966" revision="13"/>
-
-<!-- X00TD -->
-  <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-4.19" remote="Whot1966" revision="test" clone-depth="1"/>
-  <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="Whot1966" revision="lineage-20.0"/>
-  <project path="vendor/asus/X00TD" name="vendor_asus_X00TD-4.19" remote="Whot1966" revision="lineage-20.0" clone-depth="1"/>
 
 </manifest>
