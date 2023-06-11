@@ -19,3 +19,7 @@ git clone https://github.com/Whot1966/android_packages_modules_Permission-lineag
 git clone https://github.com/Whot1966/android_packages_modules_Permission-lineage ../../packages/overlays/Lineage -b lineage-20.0
 git clone https://github.com/Whot1966/android_packages_overlays_Lineage ../../packages/overlays/Lineage -b lineage-20.0
 git clone https://github.com/Whot1966/android_vendor_lineage ../../vendor/lineage -b lineage-20.0
+
+git clone https://gitlab.com/Whot1966/vendor_whot1966 ../../vendor/Whot1966 -b main
+git clone https://gitlab.com/Whot1966/vendor_whot1966_fonts ../../vendor/Whot1966/fonts -b main
+git clone https://github.com/Whot1966/packages_apps_GameSpace ../../packages/apps/GameSpace -b 13
