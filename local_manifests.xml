@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="Whot1966"
-           fetch="https://github.com/Whot1966" />
-
-  <remote  name="Whot1966-lab"
-           fetch="https://gitlab.com/Whot1966" />
-  
-  <remote  name="Whot1966-arrow"
-           fetch="https://github.com/ArrowOS" />
-  
- <!-- Remove -->
+ 
+<!-- Remove -->
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_bionic" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_libs_systemui" />
+  <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_hardware_interfaces" />
   <remove-project name="LineageOS/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
+  <remove-project name="LineageOS/android_packages_apps_DeskClock" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <remove-project name="LineageOS/android_system_extras" />
+  <remove-project name="LineageOS/android_packages_modules_Permission" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <remove-project name="LineageOS/android_system_extras" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="platform/external/roboto-fonts" />
 
 <!-- Replacements -->
+<!-- Just this one that i don't want to manually clone, the symlink is too much hassle for me -->
   <project path="build/make" name="android_build-lineage" groups="pdk" remote="Whot1966" revision="lineage-20.0" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -37,39 +35,6 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="bionic" name="android_bionic-lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="frameworks/av" name="android_frameworks_av-lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="frameworks/base" name="android_frameworks_base-lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui-lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces-lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="lineage-sdk" name="android_lineage-sdk" remote="Whot1966" revision="lineage-20.0" />
-  <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="Whot1966" revision="lineage-20.0" />
-  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="Whot1966" revision="lineage-20.0" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc-lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings-lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="Whot1966" revision="lineage-20.0" />
-  <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="system/extras" name="android_system_extras-lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="vendor/lineage" name="android_vendor_lineage" remote="Whot1966" revision="lineage-20.0" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="Whot1966-arrow" revision="arrow-13.1-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display-arrow" remote="Whot1966" revision="arrow-13.1-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="Whot1966-arrow" revision="arrow-13.1-caf-sm8150" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="Whot1966-arrow" revision="arrow-13.1" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="Whot1966-arrow" revision="arrow-13.1" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="Whot1966-arrow" revision="arrow-13.1" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="Whot1966-arrow" revision="arrow-13.1" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="Whot1966-arrow" revision="arrow-13.1-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="Whot1966-arrow" revision="arrow-13.1-sn100x" />
+  </project>  
   
-<!-- Extras -->
-  <project path="vendor/Whot1966" name="vendor_whot1966" remote="Whot1966-lab" revision="main"/>
-  <project path="vendor/Whot1966/fonts" name="vendor_whot1966_fonts" remote="Whot1966-lab" revision="main"/>
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="Whot1966" revision="13"/>
-
-<!-- ginkgo -->
-  <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="Whot1966" revision="lineage-20.0" clone-depth="1"/>
-  <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="Whot1966" revision="lineage-20.0"/>
-  <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="Whot1966" revision="lineage-20.0" clone-depth="1"/>
-  <project path="vendor/miuicamera" name="vendor_miuicamera" remote="Whot1966" revision="arrow-12.0-a3" clone-depth="1"/>
 </manifest>
