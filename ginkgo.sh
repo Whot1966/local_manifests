@@ -11,6 +11,8 @@ rm -rf ../../kernel/xiaomi/
 git clone https://github.com/Whot1966/kernel_xiaomi_ginkgo ../../kernel/xiaomi/ginkgo
 rm -rf ../../vendor/miuicamera
 git clone https://github.com/Whot1966/vendor_miuicamera ../../vendor/miuicamera
+rm -rf ../../system/extras
+git clone https://github.com/Whot1966/android_system_extras-lineage ../../system/extras
 rm -rf ../../hardware/qcom-caf/sm8150/audio/
 git clone https://github.com/ArrowOS/android_hardware_qcom_audio ../../hardware/qcom-caf/sm8150/audio/ --depth=1 -b arrow-13.1-caf-sm8150
 rm -rf ../../hardware/qcom-caf/sm8150/display/
