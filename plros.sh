@@ -16,7 +16,6 @@ git clone https://github.com/Whot1966/android_packages_apps_Settings-lineage ../
 git clone https://github.com/Whot1966/android_packages_apps_ThemePicker-lineage ../../packages/apps/ThemePicker -b lineage-20.0
 git clone https://github.com/Whot1966/android_packages_apps_Trebuchet ../../packages/apps/Trebuchet -b lineage-20.0
 git clone https://github.com/Whot1966/android_packages_modules_Permission-lineage ../../packages/modules/Permission -b lineage-20.0
-git clone https://github.com/Whot1966/android_packages_modules_Permission-lineage ../../packages/overlays/Lineage -b lineage-20.0
 git clone https://github.com/Whot1966/android_packages_overlays_Lineage ../../packages/overlays/Lineage -b lineage-20.0
 git clone https://github.com/Whot1966/android_vendor_lineage ../../vendor/lineage -b lineage-20.0
 
