@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- 
+
+<remote name="Whot1966"
+        fetch="https://github.com/Whot1966" />
+
 <!-- Remove -->
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_bionic" />
