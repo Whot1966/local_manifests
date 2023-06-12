@@ -10,7 +10,7 @@ rm -rf ../../kernel/asus/
 rm -rf ../../kernel/xiaomi/
 git clone https://github.com/Whot1966/kernel_xiaomi_ginkgo ../../kernel/xiaomi/ginkgo
 rm -rf ../../vendor/miuicamera
-git clone https://github.com/Whot1966/vendor_miuicamera ../../vendor/miuicamera --depht=1
+git clone https://github.com/Whot1966/vendor_miuicamera ../../vendor/miuicamera --depth=1
 rm -rf ../../system/extras
 git clone https://github.com/Whot1966/android_system_extras-lineage ../../system/extras --depht=1
 rm -rf ../../hardware/qcom-caf/sm8150/audio/
