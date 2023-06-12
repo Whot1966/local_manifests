@@ -29,5 +29,5 @@ rm -rf ../../vendor/nxp/opensource/commonsys/frameworks
 git clone https://github.com/ArrowOS/android_vendor_nxp_opensource_frameworks ../../vendor/nxp/opensource/commonsys/frameworks --depth=1 -b arrow-13.1
 rm -rf ../../vendor/nxp/opensource/sn100x/halimpl
 git clone https://github.com/ArrowOS/android_vendor_nxp_opensource_halimpl ../../vendor/nxp/opensource/sn100x/halimpl --depth=1 -b arrow-13.1-sn100x
-rm -rf ../../vendor/nxp/opensource/sn100x/halimpl
-git clone https://github.com/ArrowOS/android_vendor_nxp_opensource_hidlimpl ../../vendor/nxp/opensource/sn100x/halimpl --depth=1 -b arrow-13.1-sn100x
+rm -rf ../../vendor/nxp/opensource/sn100x/hidlimpl
+git clone https://github.com/ArrowOS/android_vendor_nxp_opensource_hidlimpl ../../vendor/nxp/opensource/sn100x/hidlimpl --depth=1 -b arrow-13.1-sn100x
