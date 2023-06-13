@@ -8,7 +8,7 @@ rm -rf ../../vendor/xiaomi/
 git clone https://github.com/Whot1966/vendor_asus_X00TD ../../vendor/asus/X00TD --depth=1
 rm -rf ../../kernel/asus/
 rm -rf ../../kernel/xiaomi/
-git clone https://github.com/Whot1966/kernel_asus_sdm660 ../../kernel/asus/sdm660 -b eas-test --depth=1
+git clone https://github.com/Whot1966/kernel_asus_sdm660 ../../kernel/asus/sdm660 -b r7/eas --depth=1
 rm -rf ../../system/extras
 git clone https://github.com/LineageOS/android_system_extras ../../system/extras --depth=1
 rm -rf ../../hardware/qcom-caf/msm8998/audio/
